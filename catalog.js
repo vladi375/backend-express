@@ -1,7 +1,7 @@
 const catalog = [
   {
     id: 1,
-    user: 'admin',
+    quantity: 1,
     name: 'Xiaomi Redmi Note 9 4GB/128GB',
     description:
       'Redmi Note 9 оснащен высокопроизводительным восьмиядерным процессором с максимальной тактовой частотой 2,0 ГГц и частотой GPU 1000 МГц. Чипсет предоставит вам новый пользовательский опыт.',
@@ -11,7 +11,7 @@ const catalog = [
   },
   {
     id: 2,
-    user: 'admin',
+    quantity: 1,
     name: 'Samsung Galaxy A32 SM-A325F/DS 4GB/64GB',
     description:
       'Android, экран 6.4" AMOLED (1080x2400), Mediatek Helio G80, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM',
@@ -21,7 +21,7 @@ const catalog = [
   },
   {
     id: 3,
-    user: 'admin',
+    quantity: 1,
     name: 'Apple iPhone 11 64GB (черный)',
     description:
       'Apple iOS, экран 6.1" IPS (828x1792), Apple A13 Bionic, ОЗУ 4 ГБ, флэш-память 64 ГБ, камера 12 Мп, аккумулятор 3046 мАч, 1 SIM',
@@ -31,7 +31,7 @@ const catalog = [
   },
   {
     id: 4,
-    user: 'admin',
+    quantity: 1,
     name: 'Samsung Galaxy A52 SM-A525F/DS 4GB/128GB (черный)',
     description:
       'Android, экран 6.5" AMOLED (1080x2400), Qualcomm Snapdragon 720G, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 4500 мАч, 2 SIM',
@@ -41,7 +41,7 @@ const catalog = [
   },
   {
     id: 5,
-    user: 'admin',
+    quantity: 1,
     name: 'Xiaomi Redmi Note 10 Pro 8GB/128GB (серый оникс)',
     description:
       'Android, экран 6.67" AMOLED (1080x2400), Qualcomm Snapdragon 732G, ОЗУ 8 ГБ, флэш-память 128 ГБ, карты памяти, камера 108 Мп, аккумулятор 5020 мАч, 2 SIM',
@@ -51,7 +51,7 @@ const catalog = [
   },
   {
     id: 6,
-    user: 'admin',
+    quantity: 1,
     name: 'Samsung Galaxy A12 4GB/64GB (черный)',
     description:
       'Android, экран 6.5" TFT (720x1600), Mediatek MT6765 Helio P35, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 5000 мАч, 2 SIM',
@@ -61,8 +61,8 @@ const catalog = [
   },
   {
     id: 7,
-    user: 'admin',
-    name: 'Xiaomi Mi 10T 8GB/128GB международная версия (серебристый)',
+    quantity: 1,
+    name: 'Xiaomi Mi 10T 8GB/128GB (серебристый)',
     description:
       'Android, экран 6.67" IPS (1080x2400), Qualcomm Snapdragon 865, ОЗУ 8 ГБ, флэш-память 128 ГБ, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM',
     price: 1099,
@@ -71,8 +71,8 @@ const catalog = [
   },
   {
     id: 8,
-    user: 'admin',
-    name: 'Xiaomi Redmi 9C 3GB/64GB международная версия (оранжевый)',
+    quantity: 1,
+    name: 'Xiaomi Redmi 9C 3GB/64GB (оранжевый)',
     description:
       'Android, экран 6.53" IPS (720x1600), Mediatek Helio G35, ОЗУ 3 ГБ, флэш-память 64 ГБ, карты памяти, камера 13 Мп, аккумулятор 5000 мАч, 2 SIM',
     price: 349,
@@ -81,8 +81,8 @@ const catalog = [
   },
   {
     id: 9,
-    user: 'admin',
-    name: 'Realme 6 Pro 8GB/128GB международная версия (красная молния)',
+    quantity: 1,
+    name: 'Realme 6 Pro 8GB/128GB (красная молния)',
     description:
       'Android, экран 6.6" IPS (1080x2400), Qualcomm Snapdragon 720G, ОЗУ 8 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 4300 мАч, 2 SIM',
     price: 739,
@@ -91,7 +91,7 @@ const catalog = [
   },
   {
     id: 10,
-    user: 'admin',
+    quantity: 1,
     name: 'Смартфон Google Pixel 4a (черный)',
     description:
       'Android, экран 5.8" OLED (1080x2340), Qualcomm Snapdragon 730G, ОЗУ 6 ГБ, флэш-память 128 ГБ, камера 12.2 Мп, аккумулятор 3140 мАч, 1 SIM',
@@ -101,7 +101,7 @@ const catalog = [
   },
   {
     id: 11,
-    user: 'admin',
+    quantity: 1,
     name: 'Apple iPhone 12 Pro 128GB (графитовый)',
     description:
       'Apple iOS, экран 6.1" OLED (1170x2532), Apple A14 Bionic, ОЗУ 6 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 2775 мАч, 1 SIM',
@@ -111,7 +111,7 @@ const catalog = [
   },
   {
     id: 12,
-    user: 'admin',
+    quantity: 1,
     name: 'Huawei P40 lite (полночный черный)',
     description:
       'Android, экран 6.4" IPS (1080x2310), HiSilicon Kirin 810, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 48 Мп, аккумулятор 4200 мАч, 2 SIM',
@@ -121,7 +121,7 @@ const catalog = [
   },
   {
     id: 13,
-    user: 'admin',
+    quantity: 1,
     name: 'HONOR 30i LRA-LX1 4GB/128GB (полночный черный)',
     description:
       'Android, экран 6.3" AMOLED (1080x2400), HiSilicon Kirin 710F, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 48 Мп, аккумулятор 4000 мАч, 2 SIM',
@@ -131,7 +131,7 @@ const catalog = [
   },
   {
     id: 14,
-    user: 'admin',
+    quantity: 1,
     name: 'Samsung Galaxy S20 FE SM-G780F/DSM (синий)',
     description:
       'Android, экран 6.5" AMOLED (1080x2400), Exynos 990, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 12 Мп, аккумулятор 4500 мАч, 2 SIM',
@@ -141,8 +141,8 @@ const catalog = [
   },
   {
     id: 15,
-    user: 'admin',
-    name: 'Huawei P30 Lite MAR-LX1M Dual SIM 4GB/128GB (насыщенный бирюзовый)',
+    quantity: 1,
+    name: 'Huawei P30 Lite MAR-LX1M Dual SIM 4GB/128GB',
     description:
       'Android, экран 6.15" IPS (1080x2312), HiSilicon Kirin 710, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 24 Мп, аккумулятор 3340 мАч, 2 SIM',
     price: 549,
@@ -151,8 +151,8 @@ const catalog = [
   },
   {
     id: 16,
-    user: 'admin',
-    name: 'Samsung Galaxy S21 Ultra 5G 12GB/256GB (серебряный фантом)',
+    quantity: 1,
+    name: 'Samsung Galaxy S21 Ultra 5G 12GB/256GB',
     description:
       'Android, экран 6.8" AMOLED (1440x3200), Exynos 2100, ОЗУ 12 ГБ, флэш-память 256 ГБ, камера 108 Мп, аккумулятор 5000 мАч, 2 SIM',
     price: 2800,
@@ -161,7 +161,7 @@ const catalog = [
   },
   {
     id: 17,
-    user: 'admin',
+    quantity: 1,
     name: 'Apple iPhone 11 Pro 64GB (серый космос)',
     description:
       'Apple iOS, экран 5.8" OLED (1125x2436), Apple A13 Bionic, ОЗУ 4 ГБ, флэш-память 64 ГБ, камера 12 Мп, аккумулятор 3190 мАч, 1 SIM',
@@ -171,7 +171,7 @@ const catalog = [
   },
   {
     id: 18,
-    user: 'admin',
+    quantity: 1,
     name: 'Samsung Galaxy M21 SM-M215F/DS 4GB/64GB (черный)',
     description:
       'Android, экран 6.4" AMOLED (1080x2340), Exynos 9611, ОЗУ 4 ГБ, флэш-память 64 ГБ, карты памяти, камера 48 Мп, аккумулятор 6000 мАч, 2 SIM',
@@ -181,7 +181,7 @@ const catalog = [
   },
   {
     id: 19,
-    user: 'admin',
+    quantity: 1,
     name: 'Apple iPhone SE 64GB',
     description:
       'Apple iOS, экран 4.7" IPS (750x1334), Apple A13 Bionic, ОЗУ 3 ГБ, флэш-память 64 ГБ, камера 12 Мп, аккумулятор 1820 мАч, 1 SIM',
@@ -191,8 +191,8 @@ const catalog = [
   },
   {
     id: 20,
-    user: 'admin',
-    name: 'POCO M3 4GB/128GB',
+    quantity: 1,
+    name: 'POCO M3 4GB/128GB международная версия (черный)',
     description:
       'Android, экран 6.53" IPS (1080x2340), Qualcomm Snapdragon 662, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 48 Мп, аккумулятор 6000 мАч, 2 SIM',
     price: 488,
@@ -201,7 +201,7 @@ const catalog = [
   },
   {
     id: 21,
-    user: 'admin',
+    quantity: 1,
     name: 'Samsung Galaxy S10 G973 8GB/128GB',
     description:
       'Android, экран 6.1" AMOLED (1440x3040), Exynos 9820, ОЗУ 8 ГБ, флэш-память 128 ГБ, карты памяти, камера 12 Мп, аккумулятор 3400 мАч, 2 SIM',
@@ -211,7 +211,7 @@ const catalog = [
   },
   {
     id: 22,
-    user: 'admin',
+    quantity: 1,
     name: 'Nokia 1.4 2GB/32GB (синий)',
     description:
       'Android, экран 6.51" IPS (720x1600), Qualcomm Snapdragon 215, ОЗУ 2 ГБ, флэш-память 32 ГБ, карты памяти, камера 8 Мп, аккумулятор 4000 мАч, 2 SIM',
@@ -221,7 +221,7 @@ const catalog = [
   },
   {
     id: 23,
-    user: 'admin',
+    quantity: 1,
     name: 'Xiaomi Redmi Note 10S 6GB/128GB с NFC (серый оникс)',
     description:
       'Android, экран 6.43" AMOLED (1080x2400), Mediatek Helio G95, ОЗУ 6 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 5000 мАч, 2 SIM',
@@ -231,7 +231,7 @@ const catalog = [
   },
   {
     id: 24,
-    user: 'admin',
+    quantity: 1,
     name: 'Xiaomi Mi 11 Lite 5G 8GB/128GB международная версия',
     description:
       'Android, экран 6.55" AMOLED (1080x2400), Qualcomm Snapdragon 780G, ОЗУ 8 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 4250 мАч, 2 SIM',
@@ -241,7 +241,7 @@ const catalog = [
   },
   {
     id: 25,
-    user: 'admin',
+    quantity: 1,
     name: 'Sony Xperia 10 II XQ-AU52 Dual SIM 4GB/128GB (черный)',
     description:
       'Android, экран 6" OLED (1080x2520), Qualcomm Snapdragon 665, ОЗУ 4 ГБ, флэш-память 128 ГБ, карты памяти, камера 12 Мп, аккумулятор 3600 мАч, 2 SIM',
@@ -251,7 +251,7 @@ const catalog = [
   },
   {
     id: 26,
-    user: 'admin',
+    quantity: 1,
     name: 'Realme 7 Pro RMX2170 8GB/128GB (матовый серебряный)',
     description:
       'Android, экран 6.4" AMOLED (1080x2400), Qualcomm Snapdragon 720G, ОЗУ 8 ГБ, флэш-память 128 ГБ, карты памяти, камера 64 Мп, аккумулятор 4500 мАч, 2 SIM',
@@ -261,7 +261,7 @@ const catalog = [
   },
   {
     id: 27,
-    user: 'admin',
+    quantity: 1,
     name: 'Apple iPhone XR 64GB (черный)',
     description:
       'Apple iOS, экран 6.1" IPS (828x1792), Apple A12 Bionic, ОЗУ 3 ГБ, флэш-память 64 ГБ, камера 12 Мп, аккумулятор 2942 мАч, 1 SIM',
